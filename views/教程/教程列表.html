@@ -1,0 +1,158 @@
+{{template "导航/base.html" .}} {{define "Content"}}
+
+
+
+
+<script>
+    var $toastContent = $('<h6>推荐使用Firefox或Chrome浏览器</h6>');
+Materialize.toast($toastContent, 3000, 'rounded')
+
+</script>
+
+
+
+<ul class="collapsible" data-collapsible="accordion">
+
+
+
+   
+    
+
+    
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-location-arrow"></i>OA操作</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/OA.html"}}
+            </p>
+        </div>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-envelope-o"></i>邮件</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/Email.html"}}
+            </p>
+        </div>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-folder-o"></i>文件</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/seafile.html"}}
+            </p>
+        </div>
+    </li>
+
+            <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>钉钉</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/钉钉.html"}}
+            </p>
+        </div>
+    </li>
+
+   
+
+
+ <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>软件推荐</div>
+        <div class="collapsible-body">
+
+            {{template "教程/软件推荐.html"}}
+
+        </div>
+    </li>
+
+
+
+
+
+
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-microphone"></i>会议(预约)</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/meetting.html"}}
+            </p>
+        </div>
+    </li>
+    
+     <li>
+        <div class="collapsible-header"><i class="fa fa-print"></i>打印机使用</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/打印机.html"}}
+            </p>
+        </div>
+    </li>
+
+
+
+
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>计算机常见操作</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/计算机维护.html"}}
+            </p>
+        </div>
+    </li>
+    
+     <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>PLM</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/PLM.html"}}
+            </p>
+        </div>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>SRM</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/SRM.html"}}
+            </p>
+        </div>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>SAP</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/SAP.html"}}
+            </p>
+        </div>
+    </li>
+
+
+    <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>Lync</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/Lync.html"}}
+            </p>
+        </div>
+    </li>
+
+   
+    <li>
+        <div class="collapsible-header"><i class="fa fa-share-alt"></i>微信企业号</div>
+        <div class="collapsible-body">
+            <p>
+                {{template "教程/微信企业号.html"}}
+            </p>
+        </div>
+    </li>
+
+
+</ul>
+
+{{end}}

@@ -1,0 +1,36 @@
+
+{{template "导航/header.html" .}}
+{{template "导航/navbar.html" }}
+
+
+
+    <main>
+        <div class="container">
+        <div class="row">
+            <div class="col s12">
+            {{template "Content" .}}
+            </div>
+        </div>
+        </div>
+    </main>
+  
+    {{template "导航/footer.html" .}}
+
+
+
+
+
+
+<style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+     
+    }
+
+    main {
+        padding-top: 2em;
+        flex: 1 0 auto;
+    }
+</style>

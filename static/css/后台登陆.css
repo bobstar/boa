@@ -1,0 +1,51 @@
+
+body {
+    padding-top: 0px;
+
+    background-image:url(../static/img/4.jpg);
+
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.登陆框容器 {
+    position:fixed;
+    left:10%;
+    max-width: 450px;
+    padding: 15px;
+    margin: 150 50;
+    border: 2px solid white;
+    z-index: 300
+
+
+
+    border:dashed 0px #000000;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px;
+
+
+
+
+
+}
+
+.登陆框透明层 {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+
+
+
+    border:dashed 0px #000000;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px;
+
+
+
+}
+
+

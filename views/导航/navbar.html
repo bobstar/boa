@@ -1,0 +1,44 @@
+<div class="navbar-fixed">
+    <nav class="  blue darkness-3" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">鸿合导航</a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/教程"><strong>办公指南</strong></a></li>
+                <li><a href="/加入"><strong>加入鸿合</strong></a></li>
+                
+                <li><a href="/链接"><strong>常用链接</strong></a></li>
+
+
+            </ul>
+
+            <ul class="side-nav light-blue lighten-1" id="mobile-nav">
+
+                <li><a href="/教程">教程</a></li>
+                <li><a href="/加入">加入</a></li>
+                
+                <li><a href="/链接">链接</a></li>
+
+
+            </ul>
+
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i>
+</a>
+
+        </div>
+    </nav>
+</div>
+
+
+<script>
+    $( document ).ready(function(){
+    
+     $('.button-collapse').sideNav({
+      menuWidth: 150, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      });
+      
+       $('.tooltipped').tooltip({delay: 50});
+    
+})
+</script>

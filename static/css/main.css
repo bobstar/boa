@@ -1,0 +1,96 @@
+/*
+顶部导航栏
+*/
+.headroom {position: fixed; top: 0;left: 0;right: 0;transition: all .5s ease-in-out;}
+.headroom--unpinned {top: -70px;}
+.headroom--pinned {top: 0;}
+
+
+/*
+{
+    // 在元素没有固定之前，垂直方向的偏移量（以px为单位）
+    offset : 0,
+    // scroll tolerance in px before state changes
+    tolerance : 0,
+    // 对于每个状态都可以自定义css classes
+    classes : {
+        // 当元素初始化后所设置的class
+        initial : "headroom",
+        // 向上滚动时设置的class
+        pinned : "headroom--pinned",
+        // 向下滚动时所设置的class
+        unpinned : "headroom--unpinned"
+    }
+}
+*/
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+      overflow-x: hidden; /* Prevent scroll on narrow devices */
+<!--
+    background-image:url(../static/img/4.jpg);
+-->
+    background-color:;
+  }
+
+
+footer {
+  padding: 30px 0;
+}
+
+
+
+
+
+/*
+首页,按钮导航
+*/
+#按钮导航 .btn-lg
+{
+position:relative;
+
+width:100%;
+margin: 10px 0px 10px 0px;
+
+
+
+-webkit-box-shadow: 1px 3px 3px 1px #000000;
+box-shadow: 1px 3px 3px 1px #000000;
+
+text-shadow: 1px 1px 5px #000000;
+
+}
+
+
+
+
+
+#footer
+{
+position:fixed;
+/*
+position: absolute;
+*/
+/*
+position: fixed;
+*/
+
+left:45%;
+bottom:90%;
+
+
+width:80%;
+
+
+
+
+
+}
+
+
+
+
+
