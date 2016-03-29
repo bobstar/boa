@@ -1,7 +1,14 @@
 import {Component} from 'angular2/core';
+import {Topbar} from './topbar/topbar';
+import {Chart} from './chart/chart';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    template: `
+    <topbar></topbar>
+    <hr>
+    <chart></chart>
+    `,
+    directives:[Topbar,Chart]
 })
-export class AppComponent { }
+export  class AppComponent { }

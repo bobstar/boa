@@ -1,6 +1,6 @@
 
 {{template "导航/nobar_base.html" .}} {{define "Content"}}
-<link href="http://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">
+
 
 <video id="jcvideo" class="video-js responsive-video"  onclick="playPause()"  controls preload="auto" poster="/static/img/缓冲.png" data-setup="{}">
     <source src="/static/教程/{{.Video}}.mp4" type='video/mp4'>
@@ -9,10 +9,7 @@
 
 
 
-<script src="http://vjs.zencdn.net/5.7.1/video.js"></script>
-<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 
-<!--<script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>-->
 
 
 <script>
